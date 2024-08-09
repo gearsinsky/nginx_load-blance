@@ -10,13 +10,7 @@ services:
       - 8888:80
   web1:
     image: nginx
-    environment:
-      - PORT=8080
   web2:
     image: nginx
-    environment:
-      - PORT=8081
   web3:
     image: nginx
-    environment:
-      - PORT=8082
